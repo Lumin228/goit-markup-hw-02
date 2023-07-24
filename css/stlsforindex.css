@@ -86,4 +86,74 @@ color: #2e2f42;
 .butt:focus{
     background-color: #404BBF;
 }
-/* econd section */
+/* SECOND SECTION */
+.hedersec{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.paragr{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* THIRD SECTION */
+.secret{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+/* FOURTH SECTION */
+.fourth{
+    background-color: #F4F4FD;
+}
+.fourthhead{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+/* FOURTH SECTION LIST */
+.fourthlist{
+    background-color: #FFFFFF;
+}
+.fourthlisthead{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.fourthlistparagr{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* FOOTER */
+.foot{
+    background-color: #2e2f42;
+}
+.feet{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.feetone{
+    color: #f4f4fd;
+}
+.feetlast{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
