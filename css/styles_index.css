@@ -3,7 +3,7 @@
     color: #434455;
     background-color: #ffffff;
   }
-.top{
+.tops{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -16,7 +16,14 @@
 nav{
   
 }
-.Studio{
+.link{
+  color: #4d5ae5;
+  text-decoration: none
+}
+.navi_gation{
+  
+}
+.studi_o{
   color: #2e2f42;
 }
 .list{
@@ -28,4 +35,7 @@ nav{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+body{
+  background-color: #FFFFFF;
 }
