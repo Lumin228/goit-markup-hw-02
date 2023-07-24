@@ -17,11 +17,9 @@ nav{
   
 }
 .link{
-  color: #4d5ae5;
   text-decoration: none;
-  
 }
-.link:hover,:focus{
+.links:hover,:focus{
   color: #404bbf;
 }
 .link-list{
