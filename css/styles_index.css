@@ -16,13 +16,13 @@
 nav{
   
 }
-.list li:hover{
+.list .link-list:hover{
   color: #404bbf;
 }
-.list li:focus{
+.list .link-list:focus{
   color: #404bbf;
 }
-.list li{
+.link-list{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
