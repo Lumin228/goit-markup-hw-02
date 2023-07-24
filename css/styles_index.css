@@ -16,13 +16,13 @@
 nav{
   
 }
-.list .link-list:hover{
+.list .ast-list:hover{
   color: #404bbf;
 }
-.list .link-list:focus{
+.list .ast-list:focus{
   color: #404bbf;
 }
-.link-list{
+.ast-list{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -50,4 +50,7 @@ nav{
 }
 body{
   background-color: #FFFFFF;
+}
+.address{
+  font-style: normal
 }
