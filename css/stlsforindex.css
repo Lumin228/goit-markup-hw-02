@@ -38,7 +38,9 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.spisok:hover,
+.spisok:hover{
+    color: #404bbf;
+}
 .spisok:focus{
     color: #404bbf;
 }
