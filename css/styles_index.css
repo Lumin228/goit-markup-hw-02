@@ -16,13 +16,13 @@
 nav{
   
 }
-.list .ast-list:hover{
+.list .link-list:hover{
   color: #404bbf;
 }
-.list .ast-list:focus{
+.list .link-list:focus{
   color: #404bbf;
 }
-.ast-list{
+.link-list{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -31,6 +31,9 @@ nav{
 }
 .navi_gation{
   
+}
+.link{
+  text-decoration: none;
 }
 .studi_o{
   color: #2e2f42;
@@ -52,5 +55,5 @@ body{
   background-color: #FFFFFF;
 }
 .address{
-  font-style: normal
+  
 }
