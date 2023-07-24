@@ -38,10 +38,10 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.spisok:hover{
+.spisok :hover{
     color: #404bbf;
 }
-.spisok:focus{
+.spisok :focus{
     color: #404bbf;
 }
 /* Address */
@@ -52,4 +52,10 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.info :hover{
+    color: #404bbf;
+}
+.info :focus{
+    color: #404bbf;
 }
