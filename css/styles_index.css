@@ -20,6 +20,9 @@ nav{
   color: #4d5ae5;
   text-decoration: none
 }
+.link:hover,:focus{
+  color: #404bbf;
+}
 .link-list{
   font-weight: 500;
   font-size: 16px;
