@@ -19,7 +19,7 @@ nav{
 link{
   text-decoration: none;
 }
-.links:hover,:focus{
+.link-list:hover,:focus{
   color: #404bbf;
 }
 .link-list{
