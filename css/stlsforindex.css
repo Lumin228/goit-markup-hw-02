@@ -8,3 +8,21 @@ body{
     color: var(--color);
     font-family: var(--font-family);
 }
+/* Header */
+/* Navigation */
+/* Logo */
+.logo{
+   font-family: var(--font-family);
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+}
+.logo-2{
+
+}
+.link{
+    text-decoration: none;
+}
