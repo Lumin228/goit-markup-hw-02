@@ -1,0 +1,45 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+}
+/* NAV */
+.logo{
+    font-family: 'Raleway', sans-serif;
+     font-weight: 800;
+     font-size: 18px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #4d5ae5;
+}
+.link{
+    text-decoration: none;
+}
+.sutd{
+    color: #2e2f42;
+}
+/* LIST */
+.list{
+    list-style: none;
+}
+.headli{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+/* ADDRESS */
+.adds{
+    font-style: normal;
+}
+.addli{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.addli:hover,
+.addli:focus{
+    color: #404bbf;
+}
