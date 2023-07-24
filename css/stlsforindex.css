@@ -8,6 +8,10 @@ body{
     color: var(--color);
     font-family: var(--font-family);
 }
+.link{
+    text-decoration: none;
+}
+
 /* Header */
 /* Navigation */
 /* Logo */
