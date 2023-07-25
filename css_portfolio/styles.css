@@ -15,7 +15,7 @@ body{
 .link{
     text-decoration: none;
 }
-.sutd{
+.stud{
     color: #2e2f42;
 }
 /* LIST */
@@ -39,7 +39,9 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.addli:hover, 
+.addli:hover{
+    color: #404bbf;
+} 
 .addli:focus{
     color: #404bbf;
 }
@@ -54,7 +56,10 @@ body{
     background-color: #F4F4FD;
     cursor: pointer;
 }
-.butt:hover,
+.butt:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 .butt:focus{
     color: #FFFFFF;
     background-color: #404BBF;
@@ -72,4 +77,23 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+/* Footer */
+.legs{
+    background-color: #2e2f42;
+}
+.leglog{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.legsnap{
+    color: #f4f4fd;
+}
+.legp{
+    color: #F4F4FD;
 }
