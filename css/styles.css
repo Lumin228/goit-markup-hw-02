@@ -4,8 +4,9 @@
     --background-color: #ffffff;
 }
 body{
-    font-family: "Roboto", sans-serif;
-    color: #434455;
+    background-color: var(--background-color);
+    color: var(--color);
+    font-family: var(--font-family);
 }
 /* PORTFOLIO */
 /* NAV */
