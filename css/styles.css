@@ -18,14 +18,46 @@ body{
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: #4d5ae5;
+      margin-right: 76px;
+}
+.headh{
+    border-bottom: 1px solid #e7e9fc;
+    background: var(--white, #FFF);
+}
+.addrlione{
+    margin-right: 40px;
+}
+.addlitwo{
+    margin-right: 0;
+}
+.nest{
+    display: flex;
+    align-items: center;
+}
+.dis{
+    display: flex;
+    gap: 40px;
+}
+.container{
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px 0 15px;
 }
 .link{
     text-decoration: none;
 }
+.imag{
+ display: block;
+}
 .fles{
     display: flex;
-    justify-content: space-between;
     gap: 40px;
+}
+.numone{
+    margin-right: 40px
+}
+.numthr{
+    margin-right: 0;
 }
 .stud{
     color: #2e2f42;
@@ -133,6 +165,7 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0 24px;
     }
     .spisok:hover{
         color: #404bbf;
