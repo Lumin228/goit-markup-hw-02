@@ -22,6 +22,11 @@ body{
 .link{
     text-decoration: none;
 }
+.fles{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
 .stud{
     color: #2e2f42;
 }
