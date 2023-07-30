@@ -42,6 +42,7 @@ body{
     width: 1158px;
     margin: 0;
     padding: 0 15px 0 15px;
+    margin: 0 auto;
 }
 .link{
     text-decoration: none;
@@ -258,7 +259,7 @@ body{
     }
     .lisect{
         width: calc((100% - 48px) / 3);
-        
+
     }
     .list-secret{
         display: flex;
