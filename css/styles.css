@@ -83,6 +83,9 @@ body{
     display: flex;
     gap: 40px;
 }
+.next-gen{
+    display: inline-block;
+}
 .headli{
     font-weight: 500;
     font-size: 16px;
