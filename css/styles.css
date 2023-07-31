@@ -320,7 +320,7 @@ body{
         color: #2e2f42;
         margin-bottom: 72px;
     }
-    .list-secret li{
+    .lisect{
         width: calc((100% - 48px) / 3);
 
     }
@@ -383,6 +383,7 @@ body{
         padding: 100px 0;
     }
     .feet{
+        display: inline-block;
         font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -391,11 +392,9 @@ body{
         text-transform: uppercase;
         color: #4d5ae5;
         margin-bottom: 16px;
-        display: inline-block;
     }
     .feetone{
         color: #f4f4fd;
-        display: inline-block;
     }
     .feetlast{
         line-height: 1.5;
