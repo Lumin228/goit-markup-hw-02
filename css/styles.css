@@ -55,6 +55,7 @@ body{
 }
 .link{
     text-decoration: none;
+    display: inline-block;
 }
 .imag{
  display: block;
