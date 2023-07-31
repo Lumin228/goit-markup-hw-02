@@ -297,7 +297,7 @@ body{
         display: flex;
         gap: 24px;
     }
-    .listones{
+    .listone li{
         width: calc((100%-72px)/4);
     }
     .copyr{
@@ -318,7 +318,7 @@ body{
         color: #2e2f42;
         margin-bottom: 72px;
     }
-    .lisect{
+    .list-secret li{
         width: calc((100%-48px)/3);
 
     }
