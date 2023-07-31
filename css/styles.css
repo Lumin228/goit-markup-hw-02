@@ -114,6 +114,16 @@ body{
     color: #404bbf;
 }
 /* MAIN/SECTION FIRST LIST*/
+.sec-por-one{
+    padding-top: 96px; 
+    padding-bottom: 120px;
+}
+.first-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 .butt{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -123,14 +133,18 @@ body{
     color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px ;
+    border-radius: 4px;
 }
 .butt:hover{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 .butt:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 /* SECOND LIST */
 .lihd{
@@ -139,6 +153,22 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.second-list-item{
+    width: calc((100% - 48px) / 3);
+}
+.expl{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+    
+}
+.second-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .lips{
     font-size: 16px;
