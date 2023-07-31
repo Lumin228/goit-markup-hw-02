@@ -177,6 +177,7 @@ body{
     row-gap: 48px;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 .lips{
     font-size: 16px;
