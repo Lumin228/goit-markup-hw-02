@@ -47,7 +47,6 @@ body{
     gap: 40px;
 }
 .container{
-    display: flex;
     width: 1158px;
     margin: 0;
     padding: 0 15px 0 15px;
@@ -83,9 +82,6 @@ body{
 .head-li{
     display: flex;
     gap: 40px;
-}
-.next-gen{
-    display: inline-block;
 }
 .headli{
     font-weight: 500;
