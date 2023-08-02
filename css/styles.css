@@ -260,8 +260,6 @@ body{
         letter-spacing: 0.02em;
         color: #ffffff;
         max-width: 496px;
-        display: flex;
-        align-items: center;
         margin: 0;
     }
     .buttn{
@@ -373,8 +371,6 @@ body{
     }
     .dist{
         padding: 32px 0;
-        display: flex;
-        align-items: center;
     }
     .fourthlisthead{
         font-weight: 500;
