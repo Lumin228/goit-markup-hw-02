@@ -8,6 +8,17 @@ body{
     color: var(--color);
     font-family: var(--font-family);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul{
+    margin 0;
+    padding: 0;
+}
 /* PORTFOLIO */
 .hea-d{
     border-bottom: 1px solid #e7e9fc;
@@ -45,6 +56,7 @@ body{
 .dis{
     display: flex;
     justify-content: space-between;
+    gap: 40;
 }
 .container{
     width: 1158px;
