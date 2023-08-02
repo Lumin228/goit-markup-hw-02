@@ -113,6 +113,7 @@ ul{
     font-style: normal;
     display: flex;
     align-items: center;
+    gap: 40;
 }
 .addli{
     font-size: 16px;
@@ -253,13 +254,6 @@ ul{
         display: flex;
         align-items: center;
         gap: 40px;
-    
-    }
-    .addlitwo{
-        margin: 0;
-    }
-    .addrlione{
-        margin-right: 40px;
     }
     .info{
         line-height: 1.5;
