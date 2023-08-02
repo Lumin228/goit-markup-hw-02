@@ -46,11 +46,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.container {
+.container{
     width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
-  }
+}
 .containers{
     display: flex;
     justify-content: space-between;
@@ -199,17 +199,12 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.content {
+.swas{ 
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-.swas {
-    display: flex;
-    align-items: center;
     justify-content: center;
     height: 100vh;
-  }
+}
 .legsnap{
     color: #f4f4fd;
 }
@@ -262,7 +257,7 @@ body{
         background-color: #2e2f42;
         padding: 188px 0 188px;
     }
-    .zagoo {
+    .zagoo{
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
@@ -271,7 +266,7 @@ body{
         max-width: 496px;
         margin: 0;
         padding: 0;
-      }
+    }
       .buttn{
         background-color: #4D5AE5;
         font-family: "Roboto", sans-serif;
@@ -285,6 +280,7 @@ body{
         min-width: 169px;
         height: 56px;
         border: none;
+        background-color: #4d5ae5;
         border-radius: 4px;
         cursor: pointer;
         margin: 0;
