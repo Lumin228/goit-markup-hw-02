@@ -44,7 +44,7 @@ ul{
     background: var(--white, #FFF);
 }
 .addrlione{
-    gap: 40px;
+    margin-right: 40px;
 }
 .addlitwo{
     margin: 0;
