@@ -46,11 +46,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.container{
+.container {
     width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
-}
+  }
 .containers{
     display: flex;
     justify-content: space-between;
@@ -199,12 +199,13 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.swas{ 
+.swas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center; /* Выравнивание по горизонтали */
+    justify-content: center; /* Выравнивание по вертикали */
     height: 100vh;
-}
+  }
 .legsnap{
     color: #f4f4fd;
 }
@@ -267,7 +268,7 @@ body{
         margin: 0;
         padding: 0;
     }
-    .buttn{
+    .buttn {
         background-color: #4D5AE5;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -285,7 +286,7 @@ body{
         cursor: pointer;
         margin: 0;
         padding: 0;
-    }
+      }
     .buttn:hover{
         background-color: #404BBF;
     }
