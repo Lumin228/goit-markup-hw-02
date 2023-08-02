@@ -112,7 +112,6 @@ ul{
 .adds{
     font-style: normal;
     display: flex;
-    align-items: center;
     gap: 40px;
 }
 .addli{
@@ -252,7 +251,6 @@ ul{
     .addr{
         font-style: normal;
         display: flex;
-        align-items: center;
         gap: 40px;
     
     }
