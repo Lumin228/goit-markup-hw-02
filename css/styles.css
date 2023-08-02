@@ -15,7 +15,8 @@ h4,
 h5,
 h6,
 p,
-ul{
+ul,
+li{
     margin 0;
     padding: 0;
 }
@@ -92,7 +93,6 @@ ul{
 .list{
     list-style: none;
     display: flex;
-    gap: 40px;
     padding: 0;
     margin: 0;
 }
@@ -198,6 +198,7 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 /* Footer */
 .legs{
@@ -308,6 +309,8 @@ ul{
     .paragr{
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin: 0;
+        padding: 0;
     }
     .sect{
         padding: 120px 0 120px;
@@ -404,6 +407,7 @@ ul{
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
+        margin: 0;
     }
     
     /* FOOTER */
