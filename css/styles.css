@@ -199,11 +199,15 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.swas {
+.content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Выравнивание по горизонтали */
-    justify-content: center; /* Выравнивание по вертикали */
+    align-items: center;
+  }
+.swas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
   }
 .legsnap{
@@ -258,7 +262,7 @@ body{
         background-color: #2e2f42;
         padding: 188px 0 188px;
     }
-    .zagoo{
+    .zagoo {
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
@@ -267,8 +271,8 @@ body{
         max-width: 496px;
         margin: 0;
         padding: 0;
-    }
-    .buttn {
+      }
+      .buttn {
         background-color: #4D5AE5;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -279,7 +283,7 @@ body{
         cursor: pointer;
         display: block;
         min-width: 169px;
-        height: 56px;
+        height: 56px; /* Здесь можно задать желаемую высоту кнопки */
         border: none;
         background-color: #4d5ae5;
         border-radius: 4px;
