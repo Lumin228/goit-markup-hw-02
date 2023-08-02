@@ -204,7 +204,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 .legsnap{
     color: #f4f4fd;
