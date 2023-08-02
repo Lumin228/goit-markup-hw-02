@@ -233,6 +233,8 @@ body{
     /* Address */
     .addr{
         font-style: normal;
+        display: flex;
+        justify-content: end;
     }
     .info{
         line-height: 1.5;
@@ -257,8 +259,6 @@ body{
         letter-spacing: 0.02em;
         color: #ffffff;
         max-width: 496px;
-        display: flex;
-        align-items: center;
     }
     .buttn{
         background-color: #4D5AE5;
