@@ -44,7 +44,7 @@ body{
 }
 .dis{
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
 }
 .container{
     width: 1158px;
