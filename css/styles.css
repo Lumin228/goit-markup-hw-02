@@ -272,7 +272,7 @@ body{
         margin: 0;
         padding: 0;
       }
-      .buttn {
+      .buttn{
         background-color: #4D5AE5;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -283,14 +283,13 @@ body{
         cursor: pointer;
         display: block;
         min-width: 169px;
-        height: 56px; /* Здесь можно задать желаемую высоту кнопки */
+        height: 56px;
         border: none;
-        background-color: #4d5ae5;
         border-radius: 4px;
         cursor: pointer;
         margin: 0;
         padding: 0;
-      }
+    }
     .buttn:hover{
         background-color: #404BBF;
     }
