@@ -200,6 +200,11 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
 }
+.swas{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .legsnap{
     color: #f4f4fd;
 }
