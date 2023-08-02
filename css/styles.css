@@ -105,6 +105,8 @@ body{
 /* ADDRESS */
 .adds{
     font-style: normal;
+    display: flex;
+    align-items: center;
 }
 .addli{
     font-size: 16px;
