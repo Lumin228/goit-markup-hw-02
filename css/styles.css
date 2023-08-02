@@ -112,7 +112,7 @@ ul{
 .adds{
     font-style: normal;
     display: flex;
-    gap: 40px;
+    align-items: center;
 }
 .addli{
     font-size: 16px;
@@ -251,8 +251,15 @@ ul{
     .addr{
         font-style: normal;
         display: flex;
+        align-items: center;
         gap: 40px;
     
+    }
+    .addlitwo{
+        margin: 0;
+    }
+    .addrlione{
+        margin-right: 40px;
     }
     .info{
         line-height: 1.5;
