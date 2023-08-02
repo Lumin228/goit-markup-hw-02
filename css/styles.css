@@ -207,8 +207,8 @@ body{
     color: #F4F4FD;
 }
 .swas{
-    display: flex;
-    justify-content: center;
+    display: block;
+    align-items: center;
 }
 
 /* INDEX */
