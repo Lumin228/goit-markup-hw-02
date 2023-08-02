@@ -206,7 +206,6 @@ body{
   align-items: center;
   justify-content: center; 
   gap: 48;
-  height: 100vh;
 }
 .legsnap{
     color: #f4f4fd;
