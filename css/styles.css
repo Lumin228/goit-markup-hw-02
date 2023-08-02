@@ -251,9 +251,10 @@ ul{
     /* Address */
     .addr{
         font-style: normal;
-    display: flex;
-    align-items: center;
-    gap: 40px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    
     }
     .info{
         line-height: 1.5;
