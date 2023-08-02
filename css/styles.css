@@ -43,12 +43,6 @@ ul{
     border-bottom: 1px solid #e7e9fc;
     background: var(--white, #FFF);
 }
-.addrlione{
-    margin-right: 40px;
-}
-.addlitwo{
-    margin: 0;
-}
 .nest{
     display: flex;
     align-items: center;
@@ -119,6 +113,7 @@ ul{
     font-style: normal;
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 .addli{
     font-size: 16px;
@@ -256,8 +251,9 @@ ul{
     /* Address */
     .addr{
         font-style: normal;
-        display: flex;
-        justify-content: end;
+    display: flex;
+    align-items: center;
+    gap: 40px;
     }
     .info{
         line-height: 1.5;
