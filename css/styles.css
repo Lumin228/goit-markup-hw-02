@@ -199,11 +199,7 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.swas{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
+.swas{
 }
 .legsnap{
     color: #f4f4fd;
