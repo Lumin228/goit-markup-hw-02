@@ -104,7 +104,6 @@ body{
 
 /* ADDRESS */
 .adds{
-    font-style: normal;
     display: flex;
     align-items: center;
 }
