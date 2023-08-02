@@ -93,6 +93,12 @@ ul{
     display: flex;
     gap: 40px;
 }
+.addrlione{
+    margin-right: 40px;
+}
+.addlitwo{
+    margin: 0;
+}
 .headli{
     font-weight: 500;
     font-size: 16px;
@@ -113,7 +119,6 @@ ul{
     font-style: normal;
     display: flex;
     align-items: center;
-    gap: 40;
 }
 .addli{
     font-size: 16px;
