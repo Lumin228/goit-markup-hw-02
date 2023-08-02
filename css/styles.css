@@ -208,7 +208,7 @@ body{
 }
 .swas{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 /* INDEX */
