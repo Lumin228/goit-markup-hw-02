@@ -216,13 +216,7 @@ ul{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.swas{
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  gap: 48px;
-}
+
 .legsnap{
     color: #f4f4fd;
 }
@@ -273,8 +267,7 @@ ul{
     }
     /* FIRS SECTION */
     .secnone{
-        background-color: #2e2f42;
-        padding: 188px 0 188px;
+        padding: 0;
     }
     .zagoo{
         font-size: 56px;
@@ -388,6 +381,22 @@ ul{
         background-color: #FFFFFF;
         width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+Show 1 more color
+
+Ellipse
+Component instance
+
+Ellipse
+Component instance
+
+Ellipse
+Component instance
+
+img
+Image · 2,000 x 2,722
+
     }
     .fourth-list{
         display: flex;
@@ -442,10 +451,116 @@ ul{
     .svsbg{
         background-color: #F4F4FD;
         margin: 0;
+        margin-bottom: 8px;
         padding: 0;
         height: 112px;
         width: 264;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
     }
     .ssvg{
-        z-index: 999;
+        height: 64px;
+        width: 64px;
+    }
+    .fbs{
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        margin: 8px 16px 0 16px;
+        justify-content: space-between;
+    }
+    .flit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: #f0f0f0;
+        width: 40px;
+        height: 40px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+    .flitvg{
+        height: 16px;
+        width: 16px;
+    }
+    .fiveth{
+        background-color: #FFF;
+        padding: 120px 0;
+    }
+    .lovgbox{
+        width: 168px;
+        height: 88px;
+        border-radius: 4px;
+        border: 1px solid #8E8F99;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lovg{
+        height: 88px;
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    .logsvg{
+        height: 56px;
+        width: 104px;
+    }
+    .log-svg{
+        height: 56px;
+        width: 104px;
+        display: inline-flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .soc-media{
+        margin-left: 120px;
+        width: 264px;
+    }
+    .link-s{
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .soc-media-text{
+        color: #FFF;
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.32px;
+    }
+    .soc-medi-list{
+        height: 40px;
+        margin-top: 8px;
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .img-for-people{
+        position: relative;
+        margin: auto;
+        width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
+        background: rgba(46, 47, 66, 0.70));
+    }
+    .swas{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+      gap: 48px;
+      position: absolute;
+      top: 0;
+      right: -15px;
+      background: rgba(46, 47, 66, 0.70);
+      width: 1440px;
+    height: 600px;
     }
