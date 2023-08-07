@@ -439,3 +439,8 @@ ul{
         letter-spacing: 0.02em;
         max-width: 264px
     }
+    .svsbg{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    }
+    
