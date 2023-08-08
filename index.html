@@ -65,7 +65,12 @@
         <img src="./images/people-office 1.jpg" alt="people in an office" >
         <div class="swas">
           <h1 class="zagoo">Effective Solutions for Your Business</h1>
-          <button type="button" class="buttn">Order Service</button>
+          <button data-modal-open  type="button" class="buttn">Order Service</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="modal-close" data-modal-close></button>
+            </div>
+          </div>
         </div></div>
       </section>
       <!-- Second section -->
@@ -409,28 +414,28 @@
               <ul class="list soc-medi-list">
                 <li>
                   <div class="flit">
-                    <svg class="flitvg">
+                    <svg class="flitvgs">
                       <use href="./images/icons.svg#inst"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
                   <div class="flit">
-                    <svg class="flitvg">
+                    <svg class="flitvgs">
                       <use href="./images/icons.svg#twit"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
                   <div class="flit">
-                    <svg class="flitvg">
+                    <svg class="flitvgs">
                       <use href="./images/icons.svg#face"></use>
                     </svg>
                   </div>
                 </li>
                 <li>
                   <div class="flit">
-                    <svg class="flitvg">
+                    <svg class="flitvgs">
                       <use href="./images/icons.svg#linkd"></use>
                     </svg>
                   </div>
@@ -442,5 +447,6 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
