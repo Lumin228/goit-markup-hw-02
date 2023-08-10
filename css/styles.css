@@ -50,7 +50,7 @@ ul{
 }
 
 .spisok-one::after{
-    content: "Studio";
+    content: 'Studio';
     position: absolute;
     left: 0;
     bottom: -1px;
