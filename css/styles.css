@@ -559,20 +559,15 @@ ul{
         gap: 16px;
     }
     .soc-media-text{
-        color: #FFF;
-        /* Body Medium */
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
         font-weight: 500;
-        line-height: 24px; /* 150% */
-        letter-spacing: 0.32px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
     }
     .soc-medi-list{
-        height: 40px;
-        margin-top: 8px;
-        display: inline-flex;
-        align-items: flex-start;
+        display: flex;
         gap: 16px;
     }
     .img-for-people{
@@ -605,8 +600,7 @@ ul{
     height: 600px;
     }
     .flitvgs{
-        height: 24px;
-        width: 24px;
+        fill: #f4f4fd;
     }
     .afour{
         display: flex;
@@ -703,4 +697,30 @@ ul{
         height: 8px;
         width: 8px;
         display: flex;
+    }
+    .fotteiner{
+        display: flex;
+        align-items: baseline;
+    }
+    .foot-con{
+        margin-right: 120px;
+    }
+    .soc-medi-el{
+        width: 40px;
+        height: 40px;
+
+    }
+    .flitn{
+        width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .flitn:hover,
+    .flitn:focus{
+        background-color: #31d0aa; 
     }
