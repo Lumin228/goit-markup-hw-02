@@ -42,7 +42,6 @@ ul{
 .headh{
     border-bottom: 1px solid #e7e9fc;
     background: var(--white, #FFF);
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .nest{
     display: flex;
@@ -69,7 +68,6 @@ ul{
 }
 .imag{
  display: block;
- position: relative;
 }
 .fles{
     display: flex;
@@ -157,13 +155,11 @@ ul{
     padding: 12px 24px ;
     border-radius: 4px;
     border: 1px solid #e7e9fc;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .butt:hover{
     color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .butt:focus{
     color: #FFFFFF;
@@ -181,7 +177,6 @@ ul{
 }
 .second-list-item{
     width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .expl{
     padding: 32px 16px;
@@ -572,6 +567,7 @@ Image · 2,000 x 2,722
       background: rgba(46, 47, 66, 0.70);
       width: 1440px;
     height: 600px;
+<<<<<<< HEAD
     }
     .flitvgs{
         height: 24px;
@@ -672,4 +668,6 @@ Image · 2,000 x 2,722
         height: 8px;
         width: 8px;
         display: flex;
+=======
+>>>>>>> parent of b4c970d (portfolio)
     }
