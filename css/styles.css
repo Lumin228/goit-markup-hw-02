@@ -80,6 +80,7 @@ ul{
     background-color: #404bbf;
     border-radius: 2px;
     content: '';
+    width: 65px;
 }
 .spisok-one::after{
     content: '';
@@ -89,6 +90,7 @@ ul{
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    width: 48px;
 }
 .dis{
     display: flex;
@@ -112,7 +114,6 @@ ul{
 .link:hover,
 .link:focus{
     transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .imag{
  display: block;
@@ -239,7 +240,6 @@ ul{
     margin-bottom: 8px;
 }
 .second-list-item{
-    display: block;
     width: calc((100% - 48px) / 3);
     
 }
@@ -324,7 +324,7 @@ ul{
         line-height: 1.5;
         letter-spacing: 0.02em;
         padding: 24px 0 24px;
-        
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .spisok:hover{
         color: #404bbf;
@@ -500,26 +500,8 @@ ul{
         background-color: #2e2f42;
         padding: 100px 0;
     }
-    .feet{
-        display: inline-block;
-        font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        margin-bottom: 16px;
-    }
-    .feetone{
-        color: #f4f4fd;
-    }
-    .feetlast{
-        line-height: 1.5;
-        color: #F4F4FD;
-        letter-spacing: 0.02em;
-        max-width: 264px
-    }
+  
+   
     .svsbg{
         background-color: #F4F4FD;
         margin: 0;
@@ -536,10 +518,9 @@ ul{
         
     }
     .fbs{
-        height: 40px;
         display: flex;
         flex-direction: row;
-        margin: 8px 16px 0 16px;
+        margin-top: 8px;
         justify-content: center;
         gap: 24px;
     }
@@ -590,7 +571,7 @@ ul{
     .lovg{  
         display: flex;
         gap: 24px;
-        width: calc((100% - 120px) / 6);
+        
         height: 88px;
     }
     .li-lovg{
@@ -634,9 +615,7 @@ ul{
         display: flex;
         align-items: center;
         justify-content: center;
-        position: relative;
         margin: auto;
-        width: 1440px;
         max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center;
@@ -652,11 +631,8 @@ ul{
       justify-content: center; 
       gap: 48px;
       margin-right: 15px;
-      position: absolute;
       top: 0;
       right: -15px;
-      background: rgba(46, 47, 66, 0.70);
-      width: 1440px;
     height: 600px;
     }
     .flitvgs{
@@ -708,13 +684,6 @@ ul{
         height: 8px;
         width: 8px;
         display: flex;
-    }
-    .fotteiner{
-        display: flex;
-        align-items: baseline;
-    }
-    .foot-con{
-        margin-right: 120px;
     }
     .soc-medi-el{
         width: 40px;
@@ -794,4 +763,31 @@ ul{
     }
     .modal-butt:focus .clsv{
         fill: #ffffff
+    }
+    .restart{
+        margin: auto;
+    }
+    .swagg{
+            display: inline-block;
+            font-family: "Raleway", sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5;
+            margin-bottom: 16px;
+    }
+    .spann{
+        color: #f4f4fd;
+    }
+    .east{
+        display: flex;
+        gap: 120px;
+    }
+    .supapower{
+        line-height: 1.5;
+        color: #F4F4FD;
+        letter-spacing: 0.02em;
+        max-width: 264px
     }
