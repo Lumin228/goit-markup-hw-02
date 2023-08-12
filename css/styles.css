@@ -357,7 +357,7 @@ ul{
     }
     /* FIRS SECTION */
     .secnone{
-        padding: 188px 472px;
+        padding: 188px 0;
     }
     .zagoo{
         font-size: 56px;
@@ -366,7 +366,7 @@ ul{
         letter-spacing: 0.02em;
         color: #ffffff;
         max-width: 496px;
-        margin: 0;
+        margin: 0 auto;
     }
     .buttn{
         background-color: #4D5AE5;
@@ -384,7 +384,7 @@ ul{
         background-color: #4d5ae5;
         border-radius: 4px;
         cursor: pointer;
-        margin: 48px 163px 0 163px;
+        margin: 48px auto 0 auto;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     }
     .buttn:hover{
