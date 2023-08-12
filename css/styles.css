@@ -147,6 +147,9 @@ ul{
     margin-right: 40px;
     
 }
+.marga{
+    margin-right: 120px;
+}
 .addlitwo{
     margin: 0;
 }
@@ -565,6 +568,7 @@ ul{
     .lovgbox:hover,
     .lovgbox:focus{
         border-color: #404bbf;
+        color: #404bbf;
     }
     .li-lovg:hover .logsvg{
         fill: #404bbf;
@@ -766,6 +770,8 @@ ul{
     }
     .restart{
         margin: auto;
+        display: flex;
+        align-items: baseline;
     }
     .swagg{
             display: inline-block;
