@@ -80,7 +80,7 @@ ul{
     background-color: #404bbf;
     border-radius: 2px;
     content: '';
-    width: 65px;
+    width: 100%;
 }
 .spisok-one::after{
     content: '';
@@ -90,7 +90,7 @@ ul{
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    width: 48px;
+    width: 100%;
 }
 .dis{
     display: flex;
@@ -353,7 +353,7 @@ ul{
     }
     /* FIRS SECTION */
     .secnone{
-        padding: 0;
+        padding: 188px 472px;
     }
     .zagoo{
         font-size: 56px;
@@ -380,7 +380,7 @@ ul{
         background-color: #4d5ae5;
         border-radius: 4px;
         cursor: pointer;
-        margin: 0;
+        margin: 48px 163px 0 163px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     }
     .buttn:hover{
@@ -562,16 +562,19 @@ ul{
         justify-content: center;
         color:  #8e8f99;
     }
-    .lovgbox:hover,
-    .lovgbox:focus{
+    .li-lovg:hover .lovgbox,
+    .li-lovg:focus .lovgbox{
         border-color: #404bbf;
-        color: #404bbf;
-        border-color: #404bbf;
+    }
+    .li-lovg:hover .logsvg{
+        fill: #404bbf;
+    }
+    .li-lovg:focus .logsvg{
+        fill: #404bbf;
     }
     .lovg{  
         display: flex;
         gap: 24px;
-        
         height: 88px;
     }
     .li-lovg{
@@ -580,7 +583,12 @@ ul{
     }
     .logsvg{
         fill: currentColor;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
+    .logsvg-1{
+        width: 100%;
+        height: 100%;
     }
     .log-svg{
         height: 56px;
@@ -612,9 +620,6 @@ ul{
         gap: 16px;
     }
     .img-for-people{
-        display: flex;
-        align-items: center;
-        justify-content: center;
         margin: auto;
         max-width: 1440px;
         background-repeat: no-repeat;
@@ -623,17 +628,6 @@ ul{
         height: 600px;
         flex-shrink: 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    }
-    .swas{
-        display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; 
-      gap: 48px;
-      margin-right: 15px;
-      top: 0;
-      right: -15px;
-    height: 600px;
     }
     .flitvgs{
         fill: #f4f4fd;
@@ -759,10 +753,10 @@ ul{
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .modal-butt:hover .clsv{
-        fill: #ffffff
+        fill: #ffffff;
     }
     .modal-butt:focus .clsv{
-        fill: #ffffff
+        fill: #ffffff;
     }
     .restart{
         margin: auto;
