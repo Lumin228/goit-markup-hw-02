@@ -948,7 +948,7 @@ ul{
     .svg-agr{
 
     }
-    .input-ag:checked .ez-txt{
+    .input-ag[type="checkbox"]:checked + .ez-txt{
         border: none;
         background-color:  #404bbf;
         fill: #F4F4FD;
