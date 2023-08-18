@@ -730,7 +730,7 @@ ul{
         transform: translateY(-50%); 
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .input-in:focus .svg-for{
+    .input-in[type="text"]:focus + .svg-for{
         fill: #4D5AE5;
     }
     .input-f{
@@ -948,11 +948,12 @@ ul{
     .svg-agr{
 
     }
-    .test[type="checkbox"]:checked + .ez-txt{
+    .test[type="checkbox"]:checked + .form-ag > .ez-txt{
         border: none;
         background-color:  #404bbf;
         fill: #F4F4FD;
     }
+
     .link-form{
         color: #4d5ae5;
     }
@@ -963,7 +964,7 @@ ul{
         font-family: "Roboto", sans-serif;
         background-color: #4D5AE5;
         border: none;
-        border-radius: 4px; 
+        align-self: center;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -973,12 +974,9 @@ ul{
         border-radius: 4px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        margin: 0;
-
+        margin: auto;
     }
-    .form-butt:hover{
-        background-color: #404BBF;
-    }
+    .form-butt:hover,
     .form-butt:focus{
         background-color: #404BBF;
     }
