@@ -976,10 +976,6 @@ ul{
         margin: 0;
 
     }
-    .butn-form{
-        align-items: center;
-        justify-content: center;
-    }
     .form-butt:hover{
         background-color: #404BBF;
     }
