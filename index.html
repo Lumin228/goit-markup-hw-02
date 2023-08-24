@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -22,6 +23,9 @@
   </head>
   <body>
     <header class="headh">
+      <div class="usta container"> <a href="./index.html" class="logo link"
+        >Web<span class="logosecond">Studio</span></a
+      ></div>
       <div class="dis container">
         <nav class="nest">
           <!-- List -->
@@ -126,7 +130,7 @@
       </section>
       <!-- Third section -->
       <section class="secrets">
-        <div class="container">
+        <div class="container sec-con">
           <h2 class="secret">What are we doing</h2>
           <ul class="list list-secret">
             <li class="lisect">
@@ -363,7 +367,7 @@
             </li>
             <li class="li-lovg">
               <a href="" class="lovgbox">
-                <svg class="logsvg-1" width="104" height="56">
+                <svg class="logsvg" width="104" height="56">
                   <use href="./images/icons.svg#log-4"></use>
                 </svg>
               </a>
@@ -508,5 +512,32 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg>
+        <use href="./images/icons.svg#Iks"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li>
+          <a href="./index.html" class="spisok-one link">Studio</a>
+        </li>
+
+        <li>
+          <a href="./portfolio.html" class="spisok link">Portfolio</a>
+        </li>
+
+        <li><a href="" class="spisok link">Contacts</a></li>
+      </ul>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
