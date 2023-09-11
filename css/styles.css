@@ -90,7 +90,7 @@ h5{
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 15px;
     align-items: baseline;
 }
 
