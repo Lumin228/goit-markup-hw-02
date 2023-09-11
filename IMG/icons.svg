@@ -1,10 +1,10 @@
-<svg aria-hidden="true" overflow="hidden" style="position:absolute;width:0;height:0">
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" overflow="hidden" style="position:absolute;width:0;height:0">
   <defs>
-    <symbol id="star" viewBox="0 0 32 32">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="m16 2.667 4.12 8.347 9.213 1.347-6.667 6.493 1.573 9.173-8.24-4.333-8.24 4.333 1.573-9.173-6.667-6.493 9.213-1.347 4.12-8.347z"/>
-    </symbol>
-    <symbol id="Arrow" viewBox="0 0 58 32">
-      <path fill="var(--color1, #fff)" d="M40 2.144 57.6 16 40 29.856V18.4H0v-4.8h40V2.144z"/>
-    </symbol>
+  <symbol id="star" viewBox="0 0 32 32">
+  <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 2.667l4.12 8.347 9.213 1.347-6.667 6.493 1.573 9.173-8.24-4.333-8.24 4.333 1.573-9.173-6.667-6.493 9.213-1.347 4.12-8.347z"></path>
+  </symbol>
+  <symbol id="Arrow" viewBox="0 0 58 32">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0.669876L18 5L12.5 9.33013V5.75L0 5.75L0 4.25L12.5 4.25V0.669876Z" fill="white"/>
+  </symbol>
   </defs>
 </svg>
