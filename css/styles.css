@@ -47,7 +47,11 @@ h5{
     color: white;
     padding: 40px 20px 0 20px;
   }
-
+@media (min-width: 768px) {
+    .block{
+        padding: 64px 32px 0 32px;
+    }
+}
 
   /* TXT */
 
@@ -71,7 +75,7 @@ h5{
     letter-spacing: -1.6px;
 }
 
-/* Our */
+/* Paragraph */
 
 .our-p{
     margin-top: 20px;
@@ -82,6 +86,38 @@ h5{
     font-weight: 400;
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
+}
+
+@media (min-width: 768px){
+    .main-txt{
+        width: 517px;
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 64px; /* 106.667% */
+        letter-spacing: -2.4px;
+    }
+    .photo-graph{
+    color: #BEA69E;
+    font-family: DM Sans;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+    }
+    .our-p{
+    width: 418px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    }
 }
 
 /* IMAGE - LIST */
@@ -104,6 +140,7 @@ h5{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 135px;
 }
 
 .p-txt{
@@ -126,7 +163,7 @@ h5{
 }
 
 .image-1{
-    position: relative;
+    position: static;
     z-index: 3;
 }
 .image-2{
@@ -135,13 +172,27 @@ h5{
     right: 11px;
 }
 .image-3{
-    position: relative;
+    position: static;
     z-index: 1;
-    right: 22px;
+    left: 22px;
 }
 
 .svg-arrow{
     
+}
+
+@media (min-width: 768px){
+    .holder{
+        flex-direction: row;
+        position: relative;
+        right: 20px;
+    }
+    .image-1{
+        position:static;
+    }
+    .image-2{
+        position: static;
+    }
 }
 
 /* STAR-HOLDER */
